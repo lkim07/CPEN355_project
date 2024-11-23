@@ -1,0 +1,58 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Consumer Price Index (CPI) statistics, measures of core inflation and other related statistics - Bank of Canada definitions","18100256","326-0023","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810025601",10,"CURRENT - a cube available to the public and that is current","Monthly","1949-01-01","2024-10-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Alternative measures",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Measure of core inflation based on a factor model, CPI-common (year-over-year percent change)","","1","","",1;2;3;5,
+"2","Measure of core inflation based on a weighted median approach, CPI-median (year-over-year percent change)","","2","","",1;2;4;6;11,
+"2","Measure of core inflation based on a trimmed mean approach, CPI-trim (year-over-year percent change)","","3","","",1;2;4;7;11,
+"2","Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes","","4","","",8,
+"2","Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada","","5","","",8,
+"2","Consumer Price Index (CPI), all-items excluding the effect of indirect taxes","","6","","",9,
+"2","Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada and excluding the effect of changes in indirect taxes, seasonally adjusted","","7","","",8,
+"2","Consumer Price Index (CPI), all-items excluding eight of the most volatile components as defined by the Bank of Canada, seasonally adjusted","","8","","",8,
+"2","Consumer Price Index (CPI), all-items excluding the effect of indirect taxes, seasonally adjusted","","9","","",9,
+"2","Measure of core inflation based on a weighted median approach, CPI-median (index, 198901=100)","","10","","",1;2;4;6,
+"2","Measure of core inflation based on a trimmed mean approach, CPI-trim (index, 198901=100)","","11","","",1;2;4;7,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2301","Consumer Price Index"
+
+"Subject Code","Subject Name"
+"18","Prices and price indexes"
+
+"Note ID",Note
+1,"For more information on the measures of core inflation, please consult the <a href="https://www.statcan.gc.ca/eng/statistical-programs/document/2301_D64_T9_V2" rel="external noopener noreferrer" target="_blank">methodology (opens new window)</a> and <a href="https://www.statcan.gc.ca/eng/statistical-programs/document/2301_D63_T9_V2" rel="external noopener noreferrer" target="_blank">general information (opens new window)</a> documents found in our Definitions, data sources and methods - record number <a href="http://www.statcan.gc.ca/imdb-bmdi/2301-eng.htm" rel="external noopener noreferrer" target="_blank">2301 (opens new window)</a>."
+2,"The Bank of Canada's measures of core inflation, CPI-common, CPI-median and CPI-trim, are subject to revision. In the case of CPI-median and CPI-trim, the revisions result from the fact that these measures are based on seasonally adjusted price index series. In the case of CPI-common, revisions are due to the statistical technique used, as the factor model is estimated over all available historical data. Table 18-10-0259-01 contains historical data for these three measures and is updated on a monthly basis."
+3,"This measure is based on Consumer Price Index (CPI) series adjusted to remove the effect of changes in indirect taxes."
+4,"This measure is based on Consumer Price Index (CPI) series that have been treated to remove the effect of changes in indirect taxes, and that have been seasonally adjusted."
+5,"CPI-common is a measure of core inflation that tracks common price changes across categories in the Consumer Price Index (CPI) basket."
+6,"CPI-median is a measure of core inflation corresponding to the price change located at the 50th percentile (in terms of the Consumer Price Index (CPI) basket weights) of the distribution of price changes in a given month."
+7,"CPI-trim is a measure of core inflation that excludes Consumer Price Index (CPI) components whose rates of change in a given month are located in the tails of the distribution of price changes."
+8,"Eight of the most volatile components identified by the Bank of Canada include: fruit, fruit preparations and nuts; vegetables and vegetable preparations; mortgage interest cost; natural gas; fuel oil and other fuels; gasoline; inter-city transportation; and tobacco products and smokers' supplies."
+9,"Differences in historical data exist between this table and table 176-0003. These differences are attributable to the use of Statistics Canada's full-precision input series and unique seasonal adjustment specifications, which were not previously available for the calculations made by the Bank of Canada."
+10,"From April 2020 to November 2021, and from January 2022 to February 2022, certain sub-indexes and components thereof were imputed using special approaches in either one, or more months. The affected indexes include child care services; housekeeping services; air transportation; personal care services; recreational services; travel tours; spectator entertainment; use of recreational facilities and services; beer served in licensed establishments; wine served in licensed establishments, and liquor served in licensed establishments. The details of these treatments from April 2020 to March 2021 are provided in technical supplements available through the <a href="https://www150.statcan.gc.ca/n1/en/catalogue/62F0014M" rel="external noopener noreferrer" target="_blank">Prices Analytical Series(opens new window)</a>. Starting in April 2021, details and treatments are available upon request by contacting the <a href="mailto:statcan.cpddisseminationunit-dpcunitedediffusion.statcan@statcan.gc.ca" rel="external noopener noreferrer" target="_blank">Consumer Prices Division (opens new window)</a>."
+11,"As of the January 2024 reference month, the CPI-trim and CPI-median year-over-year change indicators are calculated based on index values rounded to one decimal place. Previously, the year-over-year change indicators of these two measures of core inflation were calculated based on full precision (unrounded) index values. To eliminate incoherence, the year-over-year change figures for CPI-trim and CPI-median are now calculated based on index values rounded to one decimal place. As a result of this change, the historical year-over-year change figures for CPI-trim and CPI-median have been revised back to January 1990."
+
+"Correction ID","Correction Date","Correction Note"

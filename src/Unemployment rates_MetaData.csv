@@ -1,0 +1,63 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Unemployment rates of population aged 15 and over, total and with Indigenous identity, by educational attainment, Canada","14100361","477-0104","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410036101",1;2;3;4;5;12;13;14;15;16;18,"CURRENT - a cube available to the public and that is current","Occasional","1990-01-01","2023-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Characteristics of the population aged 15 and over",,""
+"3","Educational attainment",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Population, Canada","","1","","",,
+"2","Population, off reserve Indigenous","","2","","",6;7,
+"3","Less than high school","","2","1","",8,
+"3","High school","","3","1","",9,
+"3","College or trade","","4","1","",10,
+"3","University","","5","1","",11,
+"3","All levels of education","","1","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3701","Labour Force Survey"
+
+"Subject Code","Subject Name"
+"14","Labour"
+
+"Note ID",Note
+1,"Source: <a href="https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3701" rel="external noopener noreferrer" target="_blank">Labour Force Survey (L.F.S.) (opens new window)</a>.
+
+"
+2,"The unemployment rate is based on a monthly average from January to December."
+3,"Labour Force Survey (LFS) estimates for Canada are derived using LFS results from the provinces. LFS results for the territories are not included in the national estimates."
+4,"Adjustments are  made to Labour Force Survey (LFS) data every five years after new population estimates become available following the most recent census. At that time, all LFS data back to the previous census is re-weighted using the new population estimates (since the new population estimates will cover the inter-censal period between the two most recent censuses), and all corresponding historical LFS estimates are revised.  Therefore, at the beginning of 2021, all estimates were adjusted to reflect 2016 Census population counts and LFS estimates have been revised back to January 2006."
+5,"Most of the estimates contained in this table have been assigned a letter to indicate their coefficient of variation (c.v.) (expressed as a percentage). The letter grades represent the following coefficients of variation: A is used for a c.v. between or equal to 0.00% and 5.00% and means Excellent, B is used for a c.v. between or equal to 5.01% and 15.00% and means Very good, C is used for a c.v. between or equal to 15.01% and 25.00% and means Good, D is used for a c.v. between or equal to 25.01% and 35.00% and means Acceptable, E is used for a c.v. greater than 35.00% and means Use with caution."
+6,""Population, off reserve Indigenous" includes those who identified as First Nations (North American Indian), Métis and/or Inuk (Inuit). A person may be included in more than one of these three specific groups. Excluded from the survey’s coverage are persons living on reserves and other Indigenous settlements in the provinces, as well as those living in the territories."
+7,"Data for 2004, 2005 and 2006 are for Western Canada (Manitoba, Saskatchewan, Alberta and British Columbia) only. Data since 2007 are for all provinces. For 2004, the monthly average is from April to December."
+8,"Includes no education or education below high school graduation."
+9,"Includes high school graduation or some postsecondary education (not completed)."
+10,"Includes trade certificate or diploma from a vocational school or apprenticeship training; non-university certificate or diploma from a community college, CEGEP, school of nursing and similar programs at this level; and university certificate below bachelor's level."
+11,"Includes bachelor's degree and university degree or certificate above bachelor's degree."
+12,"Caution should be exercised in interpreting the provincial/territorial ratios and differences in ratios between provinces/territories and over time, as small estimates may present fairly high sampling variability. Estimates for small geographic areas, for small age-groups or for cross-classified variables will be associated with larger variability."
+13,"Data in this table are not directly comparable with Census of Population or National Household Survey data for the Indigenous population."
+14,"The labour force is the civilian non-institutional population 15 years of age and over who, during the survey reference week, were employed or unemployed."
+15,"Unemployed people are those who, during the LFS reference week, were available for work and were either on temporary layoff, had looked for work in the past four weeks, or had a job to start within the next four weeks."
+16,"According to the Labour Force Survey (LFS), the unemployment rate refers to the number of unemployed persons expressed as a percentage of the labour force. The unemployment rate for a particular group (educational attainment, for example) is the number unemployed in that group expressed as a percentage of the labour force for that group."
+18,"This data table comes from the publication <a href="https://www150.statcan.gc.ca/n1/en/catalogue/81-582-X" rel="external noopener noreferrer" target="_blank">Education Indicators in Canada: Report of the Pan-Canadian Education Indicators Program (opens new window)</a>, section E.3: Labour market outcomes. For a brief description of this indicator, including the methodology, please see <a href="https://www150.statcan.gc.ca/n1/en/catalogue/81-582-G"rel="external noopener noreferrer" target="_blank">Education Indicators in Canada: Handbook for the Report of the Pan-Canadian Education Indicators Program (opens new window)</a>."
+
+"Correction ID","Correction Date","Correction Note"
